@@ -1,0 +1,57 @@
+{
+  "api": {
+    "name": "CapacitorAudioOutputListPlugin",
+    "slug": "capacitoraudiooutputlistplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "getAudioDevices",
+        "signature": "() => Promise<any>",
+        "parameters": [],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getaudiodevices"
+      },
+      {
+        "name": "changeOutputDevice",
+        "signature": "(device_type: { device_type: any; }) => Promise<any>",
+        "parameters": [
+          {
+            "name": "device_type",
+            "docs": "",
+            "type": "{ device_type: any; }"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "changeoutputdevice"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
